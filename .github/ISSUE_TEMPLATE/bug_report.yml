@@ -1,0 +1,17 @@
+name: Bug report
+description: Report a reproducible investigation-agent problem
+title: "[Bug]: "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Do not include confidential documents, API keys, or private evidence.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+    validations:
+      required: true
