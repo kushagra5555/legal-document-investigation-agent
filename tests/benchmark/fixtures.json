@@ -1,0 +1,81 @@
+{
+  "main_corpus": "documents/297962019_2023-09-04.pdf",
+  "cases": [
+    {
+      "id": "q1_nataraj_appearance_time",
+      "question": "Who was K.M. Nataraj appearing for, and what time limit was he given for his submissions?",
+      "gold_pages": [23],
+      "required_facts": [["For the Union", "appearing for the Union"], ["Timed you to 10 minutes", "10 minutes"]],
+      "gold_quotes": [{"page": 23, "speaker": "K.M. NATARAJ", "quote": "K.M. NATARAJ: For the Union."}, {"page": 23, "speaker": "JUSTICE SANJAY KISHAN KAUL", "quote": "JUSTICE SANJAY KISHAN KAUL: Timed you to 10 minutes."}]
+    },
+    {
+      "id": "q2_giri_madhav_rao",
+      "question": "What did V. Giri argue about the rights claimed in Madhav Rao Scindia, and why did he say Article 363 was not attracted?",
+      "gold_pages": [22],
+      "required_facts": [["Article 291", "Articles 291"], ["Article 362", "and 362"], ["not from the Covenant", "not from the covenant", "rather than the Covenant"], ["363 was not attracted", "Article 363 was not attracted", "363 was not attractive"]],
+      "gold_quotes": [{"page": 22, "speaker": "V. GIRI", "quote": "rights which is claimed 4 by the petitioners emanates from Article 291, Constitution and 362, and not from the 5 Covenant."}, {"page": 22, "speaker": "V. GIRI", "quote": "Therefore My Lord that 363 was not attracted."}]
+    },
+    {
+      "id": "q3_four_key_areas_attribution",
+      "question": "What were the four key areas that Chief Justice DY Chandrachud identified in the case, and which of those areas did Mahesh Jethmalani say he was not addressing?",
+      "gold_pages": [30],
+      "required_facts": [["370 itself", "Article 370 itself"], ["proviso to 370(3)", "proviso to Article 370(3)"], ["amending power under 367", "Article 367"], ["reorganization"], ["356", "Article 356"], ["latter two", "adopting the arguments of the State"]],
+      "gold_quotes": [{"page": 30, "speaker": "CHIEF JUSTICE DY CHANDRACHUD", "role": "correct", "quote": "Actually you've helpfully identified the four key 4 areas in the case, if the case turns. One, 370 itself and the proviso to 370(3) to the use of the 5 amending power under 367; three, the reorganization and four, 356."}, {"page": 30, "speaker": "MAHESH JETHMALANI", "role": "correct", "quote": "So with regard to the latter two, I'm adopting the arguments of 13 the State, of the Government."}, {"page": 23, "speaker": "K.M. NATARAJ", "role": "distractor", "quote": "Basically, I formulated four issues which I will cover up 22 in within 10 or 15 minutes. I will not go beyond that. Article 370 is the only provision"}]
+    },
+    {
+      "id": "q4_giri_federal_division",
+      "question": "According to V. Giri's submission, why did he say the Centre could not simply alter the constitutional division of legislative and executive authority between the Centre and the States?",
+      "gold_pages": [19, 20, 21],
+      "required_facts": [["federalism is a basic feature", "federalism that is revealed"], ["distribution of the Legislative Powers", "distribution of legislative powers"], ["different plane", "federal structure"], ["Union and all other States", "Centre and the States"]],
+      "gold_quotes": [{"page": 19, "speaker": "V. GIRI", "quote": "One is that federalism is a basic feature of the Constitution."}, {"page": 19, "speaker": "V. GIRI", "quote": "distribution of the Legislative Powers with the parliament and the and 6 the State Legislatures"}, {"page": 21, "speaker": "V. GIRI", "quote": "The federal structure, which emanates My Lords, from 370, is on a different plane 8 from the federal structure....."}]
+    },
+    {
+      "id": "q5_giri_concurrence_relationship",
+      "question": "According to V. Giri's submission, what was the significance of the consent or concurrence of the Government of Jammu and Kashmir under Article 370, and how did he connect that to the relationship between Jammu and Kashmir and the Union?",
+      "gold_pages": [20],
+      "required_facts": [["concurrence of the Government is necessary", "concurrence of the Government"], ["relationship between Union and Jammu and Kashmir", "relationship between the Union and Jammu and Kashmir", "relationship between Jammu and Kashmir and the Union"], ["plane different", "different from the constantly interworking relationship"]],
+      "gold_quotes": [{"page": 20, "speaker": "V. GIRI", "quote": "concurrence of the Government is necessary."}, {"page": 20, "speaker": "V. GIRI", "quote": "this sets out the relationship between Union and Jammu and Kashmir at a plane. 3 I'm not saying higher or lower. I am saying it a plane different from the constantly 4 interworking relationship between the Union and all other States in the country."}]
+    },
+    {
+      "id": "q6_distant_bridge",
+      "question": "What relationship did V. Giri describe between Article 370's federal structure and the possibility of resurrection?",
+      "gold_pages": [20, 21],
+      "required_facts": [["federal structure", "different plane"], ["resurrection", "resurrected"], ["cause of action"]],
+      "gold_quotes": [{"page": 20, "speaker": "V. GIRI", "quote": "If 370 is resurrected, we would come back to a stage where there is an oddity 16 insofar as the Federal structure of the Constitution is concerned."}, {"page": 21, "speaker": "V. GIRI", "quote": "there is a resurrection, that My Lord, there is still My Lord a 14 cause of action. ."}]
+    },
+    {
+      "id": "negative_phone_number",
+      "question": "What phone number is listed for the Chief Justice?",
+      "gold_pages": [], "required_facts": [], "expect_decline": true,
+      "negative_verification": "No phone number answering this question was found in the extracted text of the 108-page PDF."
+    },
+    {
+      "id": "negative_salary",
+      "question": "What salary did the court award to the petitioner?",
+      "gold_pages": [], "required_facts": [], "expect_decline": true,
+      "negative_verification": "No salary award answering this question was found in the extracted text."
+    },
+    {
+      "id": "negative_birth_date",
+      "question": "What is V. Giri's date of birth in this transcript?",
+      "gold_pages": [], "required_facts": [], "expect_decline": true,
+      "negative_verification": "No date of birth for V. Giri was found in the extracted text."
+    },
+    {
+      "id": "negative_filing_deadline",
+      "question": "What filing deadline did the final judgment impose?",
+      "gold_pages": [], "required_facts": [], "expect_decline": true,
+      "negative_verification": "The corpus is a hearing transcript and contains no final judgment or such filing deadline."
+    },
+    {
+      "id": "short_ceo_regression",
+      "question": "Who is the CEO?", "corpus_override": "documents/controlled_ceo_bob.pdf", "gold_pages": [1], "required_facts": [["Bob"]],
+      "gold_quotes": [{"page": 1, "quote": "The CEO is Bob."}]
+    },
+    {
+      "id": "short_year_regression",
+      "question": "When was the company founded?", "corpus_override": "documents/controlled_company_2012.pdf", "gold_pages": [1], "required_facts": [["2012"]],
+      "gold_quotes": [{"page": 1, "quote": "The company was founded in 2012."}]
+    }
+  ]
+}

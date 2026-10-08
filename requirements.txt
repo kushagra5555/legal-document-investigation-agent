@@ -1,0 +1,11 @@
+# The Gemini SDK provides HTTP-based model access without the native grpc
+# dependency that was blocked by this host's Windows application-control policy.
+langchain-core==0.2.43
+langsmith==0.1.147
+langgraph==0.2.0
+langgraph-checkpoint==1.0.12
+google-genai==2.25.0
+pypdf>=5.0,<7.0
+fonttools>=4.0,<6.0
+openpyxl>=3.1,<4.0
+python-dotenv
